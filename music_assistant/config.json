@@ -1,0 +1,21 @@
+{
+  "name": "Music Assistant Server",
+  "version": "0.0.85",
+  "description": "Media library manager for (streaming) media.",
+  "url": "https://music-assistant.github.io",
+  "slug": "music_assistant",
+  "startup": "services",
+  "boot": "auto",
+  "arch": ["amd64", "armv7", "aarch64"],
+  "map": ["media:rw"],
+  "tmpfs": true,
+  "host_network": true,
+  "ingress": true,
+  "ingress_port": 8095,
+  "environment": {},
+  "homeassistant_api": false,
+  "panel_icon": "mdi:music-box-multiple",
+  "options": {},
+  "schema": {},
+  "image": "music-assistant/music-assistant"
+}
