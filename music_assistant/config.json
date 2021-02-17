@@ -1,6 +1,6 @@
 {
   "name": "Music Assistant Server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Media library manager for (streaming) media.",
   "url": "https://music-assistant.github.io",
   "slug": "music_assistant",
